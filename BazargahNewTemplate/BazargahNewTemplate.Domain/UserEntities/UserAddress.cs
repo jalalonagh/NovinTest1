@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace BazargahNewTemplate.Domain.UserEntities
-{   public class UserAddress : BaseEntity<long>
+{   public class UserAddress : BaseEntity
     {
         public Guid UserId { get; set; }
         public required string Address { get; set; }

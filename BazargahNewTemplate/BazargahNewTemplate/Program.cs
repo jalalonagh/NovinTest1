@@ -1,7 +1,12 @@
+using BazargahNewTemplate.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddSingleton(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddSingleton(typeof(IUserRepository), typeof(UserRepository));
 
 var app = builder.Build();
 

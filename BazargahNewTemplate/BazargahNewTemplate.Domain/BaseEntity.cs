@@ -4,12 +4,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BazargahNewTemplate.Domain
 {
-    public abstract class BaseEntity<T> : IEntity<T>
-        where T : struct
+    public abstract class BaseEntity : IEntity
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public T Id { get; set; }
+        //[Key]
+        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public Guid Id { get; set; }
         public DateTime CreationTime { get; set; }
         public long Priority { get; set; }
     }

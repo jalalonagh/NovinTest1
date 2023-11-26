@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BazargahNewTemplate.Domain.UserEntities
 {
-    public class User : BaseEntity<Guid>
+    public class User : BaseEntity
     {
         public required string UserName { get; set; }
         public required string Password { get; set; }

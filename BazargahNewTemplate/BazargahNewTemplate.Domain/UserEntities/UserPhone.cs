@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BazargahNewTemplate.Domain.UserEntities
 {
-    public class UserPhone : BaseEntity<long>
+    public class UserPhone : BaseEntity
     {
         public Guid UserId { get; set; }
         public required string PhoneNumber { get; set; }

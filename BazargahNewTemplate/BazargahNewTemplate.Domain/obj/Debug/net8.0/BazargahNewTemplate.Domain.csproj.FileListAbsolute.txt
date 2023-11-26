@@ -1,0 +1,13 @@
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Domain\obj\Debug\net8.0\BazargahNewTemplate.Domain.csproj.AssemblyReference.cache
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Domain\obj\Debug\net8.0\BazargahNewTemplate.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Domain\obj\Debug\net8.0\BazargahNewTemplate.Domain.AssemblyInfoInputs.cache
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Domain\obj\Debug\net8.0\BazargahNewTemplate.Domain.AssemblyInfo.cs
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Domain\obj\Debug\net8.0\BazargahNewTemplate.Domain.csproj.CoreCompileInputs.cache
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Domain\obj\Debug\net8.0\BazargahNewTemplate.Domain.sourcelink.json
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Domain\bin\Debug\net8.0\BazargahNewTemplate.Domain.deps.json
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Domain\bin\Debug\net8.0\BazargahNewTemplate.Domain.dll
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Domain\bin\Debug\net8.0\BazargahNewTemplate.Domain.pdb
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Domain\obj\Debug\net8.0\BazargahNewTemplate.Domain.dll
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Domain\obj\Debug\net8.0\refint\BazargahNewTemplate.Domain.dll
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Domain\obj\Debug\net8.0\BazargahNewTemplate.Domain.pdb
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Domain\obj\Debug\net8.0\ref\BazargahNewTemplate.Domain.dll

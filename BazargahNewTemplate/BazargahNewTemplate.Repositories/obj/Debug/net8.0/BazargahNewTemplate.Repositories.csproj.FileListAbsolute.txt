@@ -1,0 +1,16 @@
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Repositories\obj\Debug\net8.0\BazargahNewTemplate.Repositories.csproj.AssemblyReference.cache
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Repositories\obj\Debug\net8.0\BazargahNewTemplate.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Repositories\obj\Debug\net8.0\BazargahNewTemplate.Repositories.AssemblyInfoInputs.cache
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Repositories\obj\Debug\net8.0\BazargahNewTemplate.Repositories.AssemblyInfo.cs
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Repositories\obj\Debug\net8.0\BazargahNewTemplate.Repositories.csproj.CoreCompileInputs.cache
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Repositories\obj\Debug\net8.0\BazargahNewTemplate.Repositories.sourcelink.json
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Repositories\bin\Debug\net8.0\BazargahNewTemplate.Repositories.deps.json
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Repositories\bin\Debug\net8.0\BazargahNewTemplate.Repositories.dll
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Repositories\bin\Debug\net8.0\BazargahNewTemplate.Repositories.pdb
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Repositories\bin\Debug\net8.0\BazargahNewTemplate.Domain.dll
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Repositories\bin\Debug\net8.0\BazargahNewTemplate.Domain.pdb
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Repositories\obj\Debug\net8.0\BazargahNewTemplate.Repositories.csproj.CopyComplete
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Repositories\obj\Debug\net8.0\BazargahNewTemplate.Repositories.dll
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Repositories\obj\Debug\net8.0\refint\BazargahNewTemplate.Repositories.dll
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Repositories\obj\Debug\net8.0\BazargahNewTemplate.Repositories.pdb
+F:\Bazargah_Team_Projects\BazargahNewTemplate\BazargahNewTemplate.Repositories\obj\Debug\net8.0\ref\BazargahNewTemplate.Repositories.dll

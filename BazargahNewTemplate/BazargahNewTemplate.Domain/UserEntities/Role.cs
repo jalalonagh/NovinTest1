@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BazargahNewTemplate.Domain.UserEntities
 {
-    public class Role : BaseEntity<byte>
+    public class Role : BaseEntity
     {
         public required string Name { get; set; }
         public bool? IsActive { get; set; }

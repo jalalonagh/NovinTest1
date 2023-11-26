@@ -6,7 +6,9 @@ namespace BazargahNewTemplate.Repositories
         where T : IEntity
     {
         T Add(T entity);
-        T GetSingle<P>(P Id);
-
+        T GetSingle(Guid Id);
+        T Update(T entity);
+        T Delete(T entity);
+        ICollection<T> List();
     }
 }
