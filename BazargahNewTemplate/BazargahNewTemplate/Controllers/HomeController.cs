@@ -1,4 +1,5 @@
 using BazargahNewTemplate.Models;
+using BazargahNewTemplate.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -7,17 +8,19 @@ namespace BazargahNewTemplate.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IUserService _userService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IUserService userService)
         {
             _logger = logger;
+            _userService = userService;
         }
 
         public IActionResult Index()
         {
-            //if (!HttpContext.User.Identity.IsAuthenticated)
-            //    return RedirectToAction("Login");
-            return View();
+            var list = _userService.ListService();
+
+            return View(list);
         }
 
         public IActionResult Privacy()

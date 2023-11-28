@@ -2,6 +2,7 @@
 using BazargahNewTemplate.Repositories;
 using System;
 using System.Collections.Generic;
+using System.IO.Pipes;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,9 +18,10 @@ namespace BazargahNewTemplate.Services
             repository = _repository;
         }
 
-        public User AddService(User entity)
+        public User Register(User entity)
         {
-            // Generic Validations
+            if (entity == null && entity.Id != Guid.Empty)
+                throw new ArgumentException("@UserService.AddService.NullException");
 
             // Generic Logs
 
@@ -28,7 +30,8 @@ namespace BazargahNewTemplate.Services
 
         public User DeleteService(User entity)
         {
-            // Generic Validations
+            if(!string.IsNullOrEmpty(entity.Email))
+                throw new ArgumentException("@UserService.DeleteService.EmailExistDeleteException");
 
             // Generic Logs
 
@@ -60,6 +63,16 @@ namespace BazargahNewTemplate.Services
             // Generic Logs
 
             return repository.Update(entity);
+        }
+
+        public User Login(string username, string password)
+        {
+            var found = ListService().FirstOrDefault(w => w.UserName == username && w.Password == password);
+
+            if (found == null)
+                throw new ArgumentException("@UserService.Login.UserNotFound");
+
+            return found;
         }
     }
 }

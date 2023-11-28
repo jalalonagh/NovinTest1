@@ -9,10 +9,11 @@ namespace BazargahNewTemplate.Services
 {
     public interface IUserService
     {
-        User AddService(User entity);
+        User Register(User entity);
         User GetSingleService(Guid Id);
         User UpdateService(User entity);
         User DeleteService(User entity);
         ICollection<User> ListService();
+        User Login(string username, string password);
     }
 }

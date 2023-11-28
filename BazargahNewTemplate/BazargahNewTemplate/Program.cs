@@ -1,4 +1,5 @@
 using BazargahNewTemplate.Repositories;
+using BazargahNewTemplate.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,18 +8,18 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddSingleton(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddSingleton(typeof(IUserRepository), typeof(UserRepository));
+builder.Services.AddSingleton<IUserService, UserService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+app.UseExceptionHandler("/Home/Error");
+
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
-//app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 
 app.UseStaticFiles();
 
@@ -28,6 +29,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=User}/{action=Index}/{id?}");
 
 app.Run();

@@ -1,0 +1,24 @@
+﻿@model BazargahNewTemplate.Domain.UserEntities.User
+
+<form asp-action="Register" asp-antiforgery="true" enctype="multipart/form-data" method="post">
+    <div class="mb-3">
+        <label asp-for="UserName" class="form-label">نام کاربری</label>
+        <input type="text" class="form-control" asp-for="UserName" aria-describedby="emailHelp">
+        @* <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> *@
+    </div>
+    <div class="mb-3">
+        <label asp-for="Password" class="form-label">رمز عبور</label>
+        <input type="password" class="form-control" asp-for="Password">
+    </div>
+    <div class="mb-3">
+        <label asp-for="FullName" class="form-label">نام کامل</label>
+        <input type="text" class="form-control" asp-for="FullName" aria-describedby="emailHelp">
+        @* <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> *@
+    </div>
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label">ایمیل</label>
+        <input type="email" class="form-control" asp-for="Email" aria-describedby="emailHelp">
+        @* <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> *@
+    </div>
+    <button type="submit" class="btn btn-primary">ثبت</button>
+</form>

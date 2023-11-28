@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BazargahNewTemplate.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8444008d8a6de2e9e509d795b5c6209aa5352435")]
 [assembly: System.Reflection.AssemblyProductAttribute("BazargahNewTemplate.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BazargahNewTemplate.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
